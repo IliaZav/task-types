@@ -1,5 +1,3 @@
-// Типы для функций
-
 export function getPersons(): Array<{
     name: string;
     age: number;
@@ -8,11 +6,7 @@ export function getPersons(): Array<{
 
 export function personToString(
     person:
-        | {
-              name: string;
-              age: number;
-              gender: 'male' | 'female';
-          }
+        | { name: string; age: number; gender: 'male' | 'female' }
         | {
               name: string;
               age: number;
