@@ -31,6 +31,6 @@ export function getPersons(): Person[];
  * - name: string
  * - age: number
  * - gender: 'male' | 'female'
- * - company: string
+ * - company: strin
  */
 export function personToString(person: Person | Employee): string;
